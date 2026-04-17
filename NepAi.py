@@ -85,7 +85,7 @@ def print_help():
     print("  sair                       -> fecha o chat")
     print("  limpar                     -> apaga o historico da conversa atual")
     print("  ajuda                      -> mostra esta ajuda")
-    print("  ensinar: <texto>           -> salva conhecimento para proximas conversas")
+    print("  /teach <texto>           -> salva conhecimento para proximas conversas")
     print("  ver conhecimento           -> mostra o arquivo de conhecimento atual")
 
 
@@ -124,11 +124,11 @@ def run_chat():
             print(load_knowledge() or "[vazio]")
             continue
 
-        if command.startswith("ensinar:"):
-            new_knowledge = user_input[len("ensinar:"):].strip()
-
+        if command.startswith("/teach"):
+            new_knowledge = user_input[len("/teach"):].strip()
+            
             if not new_knowledge:
-                print("IA: Escreva algo depois de 'ensinar:'.")
+                print("IA: Escreva algo depois de '/teach'.")
                 continue
 
             append_knowledge(new_knowledge)
