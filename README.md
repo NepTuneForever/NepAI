@@ -1,4 +1,4 @@
-# minhaia
+# NepAI
 
 Local chat assistant in Python using `Ollama` with a pre-trained model.
 
