@@ -4,7 +4,7 @@ Local chat assistant in Python using `Ollama` with a pre-trained model.
 
 ## How it works
 
-- `minhaia.py` sends your messages to `Ollama`
+- `NepAI.py` sends your messages to `Ollama`
 - `Ollama` runs the local model on your PC
 - `knowledge/conhecimento.txt` stores persistent knowledge
 

@@ -96,7 +96,7 @@ def run_chat():
     print(f"Modelo: {MODEL}")
     print("Digite sua mensagem.")
     print("Use 'sair' para fechar.")
-    print("Use 'ensinar: ...' para salvar conhecimento permanente.")
+    print("Use '/teach ...' para salvar conhecimento permanente.")
 
     while True:
         user_input = input("\nVoce: ").strip()
