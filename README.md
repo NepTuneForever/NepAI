@@ -38,7 +38,7 @@ python minhaia.py
 Example:
 
 ```text
-ensinar: The transmission helps control how power is delivered to the wheels.
+/teach Racionais is the best music group.
 ```
 
 This is saved to `knowledge/conhecimento.txt` and remains available after you close the chat.
