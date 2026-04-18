@@ -31,7 +31,7 @@ python minhaia.py
 - `limpar`
 - `ajuda`
 - `ver conhecimento`
-- `ensinar: <text>`
+- `/teach <text>`
 
 ## How to teach new knowledge
 
